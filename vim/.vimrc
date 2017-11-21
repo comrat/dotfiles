@@ -45,6 +45,7 @@ au BufRead,BufNewFile *.decl set filetype=qml
 au BufRead,BufNewFile *.log set filetype=log
 au BufRead,BufNewFile *.m set filetype=octave
 au BufRead,BufNewFile *.tex set fenc=utf-8 ts=2 sw=2 sts=2 et fdm=indent foldlevel=20
+au BufRead,BufNewFile *.swift set filetype=javascript
 au FileType gitcommit set cc=72
 au FileType qf nnoremap <buffer> <C-T> <C-W><CR><C-W>T
 au FileType qf set cc=0
