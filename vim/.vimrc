@@ -198,6 +198,7 @@ autocmd BufWritePre * StripWhitespace
 " vim-commentary
 au FileType cpp.doxygen setlocal commentstring=//\ %s
 au FileType octave setlocal commentstring=#\ %s
+au FileType qml setlocal commentstring=//\ %s
 xmap <leader>c  <Plug>Commentary
 nmap <leader>c  <Plug>Commentary
 omap <leader>c  <Plug>Commentary
